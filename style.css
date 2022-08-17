@@ -1,0 +1,32 @@
+.cabeçalho{
+    margin-left: 10%;
+    border-bottom: hsl(219, 9%, 45%);
+}
+
+.logo{
+    width: 10%;
+    height: 35px;
+}
+
+.lista{
+    list-style-type: none;
+}
+
+.lista a{
+    text-decoration: none;
+    color: hsl(219, 9%, 45%);
+    padding-right: 20px;
+}
+
+.img_carrinho{
+    margin-left: 125%;
+    width: 10%;
+    height: 20px;
+}
+
+.img_avatar{
+    margin-left: 5%;
+    width: 50px;
+    border: 2px solid hsl(26, 100%, 55%) ;
+}
+
