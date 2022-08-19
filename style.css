@@ -2,18 +2,31 @@
    margin: 20px 50px 0 50px;
 }
 
-.lista {
+.lista a{
     text-decoration: none;
     color: hsl(219, 9%, 45%);
+}
+
+.lista :hover{
+    color: black;
+    transition: 0.7s;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+.lista {
+    text-decoration: none;
+    
     padding-left: 10px;
     list-style-type: none;
     padding-top: 15px;
 }
 
 .img_carrinho{
-    width: 10%;
-    height: 20px;
+    width: 13%;
+    height: 35px;
     margin-left: 500px;
+    padding-top: 15px;
     
 }
 
@@ -22,3 +35,6 @@
     border: 2px solid hsl(26, 100%, 55%);
 }
 
+.hr{
+  color: black;  
+}
