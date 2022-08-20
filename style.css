@@ -16,7 +16,6 @@
 
 .lista {
     text-decoration: none;
-    
     padding-left: 10px;
     list-style-type: none;
     padding-top: 15px;
@@ -27,14 +26,56 @@
     height: 35px;
     margin-left: 500px;
     padding-top: 15px;
+    cursor: pointer;
     
 }
 
 .img_avatar{
     width: 50px;
     border: 2px solid hsl(26, 100%, 55%);
+    cursor: pointer;
 }
 
 .hr{
   color: black;  
+}
+
+.img{
+    width: 30%;
+    border-radius: 10px;
+}
+
+.nomeDaMarca{
+    color: hsl(26, 100%, 55%);
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.titulo{
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.paragrafo{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.preco{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.desconto{
+    color: hsl(26, 100%, 55%);
+    font-weight: bold;
+    border: 1px solid hsla(26, 100%, 55%, 0);
+    background-color:hsla(26, 100%, 55%, 0.164);
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.precoAntigo{
+    color: rgba(0, 0, 0, 0.5);
 }
