@@ -30,24 +30,45 @@
         </div>
     </div>
     <div class="conteiner-fluid d-flex">
-        <main class="row">
-            <section class="d-flex">
-                <div><img class="img" src="images/imagem1.jpg" alt="tenis"></div>
-                <div><img class="img" src="images/imagem2.jpg" alt="tenis"></div>
-                <div><img class="img" src="images/imagem3.jpg" alt="tenis"></div>
-                <div><img class="img" src="images/imagem4.jpg" alt="tenis"></div>
-                <div>
+        <main class="">
+            <section class="d-flex row">
+                <div id="banner" class="carousel slide col-sm-5 h-100 slider" data-bs-ride="carousel">
+                    <div id="indicadores" class="carousel-indicators">
+                        <button type="button" data-bs-target="#banner" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#banner" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#banner" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#banner" data-bs-slide-to="3"></button>
+                    </div>
+                    <div id="imagens" class="carousel-inner">
+                        <div class="carousel-item active" ><img class="imagem w-100" src="images/imagem1.jpg" alt="tenis"></div>
+                        <div class="carousel-item"><img class="imagem w-100" src="images/imagem2.jpg" alt="tenis"></div>
+                        <div class="carousel-item"><img class="imagem w-100" src="images/imagem3.jpg" alt="tenis"></div>
+                        <div class="carousel-item"><img class="imagem w-100" src="images/imagem4.jpg" alt="tenis"></div>
+                    </div>
+                    
+                    <button type="button" class="carousel-control-prev" data-bs-target="#banner" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                        </button>
+                    <button type="button" class="carousel-control-next" data-bs-target="#banner" data-bs-slide="next" >
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                   
+                </div>
+                <div class="col-sm-7 descricao">
                     <h1 class="nomeDaMarca">Sneakear company</h1>
-                    <h2 class="titulo">Fall Limite Sneakers</h2>
+                    <h2 class="titulo">Fall Limite Edition Sneakers</h2>
                     <p class="paragrafo">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'II wishtand everything the weather can offer.</p>
-                    <p class="preco">$125.00</p>
-                    <span class="desconto">50%</span>
-                    <s class="precoAntigo">$250</s>
+                    <div class="d-flex">
+                        <p class="preco">$125.00</p>
+                        <span class="desconto">50%</span>
+                    </div>
+                    <s class="precoAntigo d-block mb-5">$250</s>
                 
-                    <button><img src="images/icon-cart.svg" alt="carrinho de compras">Add to cart</button>
+                    <button class="btn"><img class="icon_btn" src="images/icon-cart.svg" alt="carrinho de compras">Add to cart</button>
                 </div>
             </section>
         </main>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
