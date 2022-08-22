@@ -105,3 +105,12 @@
     color: white;
     padding-right: 10px;
 }
+
+.btn-quantidade{
+    background-color:hsla(217, 9%, 45%, 0.082) ;
+    border-radius: 5px;
+}
+
+.btn-compra{
+    border: 0;
+}

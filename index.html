@@ -11,7 +11,7 @@
 
 </head>
 <body>
-    <div class="conteiner-fluid cabeçalho border border-top-0 border-end-0 border-start-0 pb-3">
+    <div class="conteiner cabeçalho border border-top-0 border-end-0 border-start-0 pb-3">
         <div class="row">
             <header class="d-flex align-items-center mx-5">
                 <img class="logo h-25" src="images/logo.svg" alt="logo">
@@ -29,7 +29,7 @@
             </header>
         </div>
     </div>
-    <div class="conteiner-fluid d-flex">
+    <div class="conteiner d-flex">
         <main class="">
             <section class="d-flex row">
                 <div id="banner" class="carousel slide col-sm-5 h-100 slider" data-bs-ride="carousel">
@@ -63,8 +63,14 @@
                         <span class="desconto">50%</span>
                     </div>
                     <s class="precoAntigo d-block mb-5">$250</s>
-                
-                    <button class="btn"><img class="icon_btn" src="images/icon-cart.svg" alt="carrinho de compras">Add to cart</button>
+                    <div class="d-flex justify-content-center mb-5">
+                        <div class=" btn-quantidade me-3 p-2">
+                            <button class="btn-compra"> <img src="images/botao de menos.svg" alt="icon de menos"> </button>
+                            <span class="h4 px-3"> 0 </span>
+                            <button class="btn-compra"> <img src="images/botao de mais.svg" alt=""></button>
+                        </div>
+                        <button class="btn"><img class="icon_btn" src="images/icon-cart.svg" alt="carrinho de compras">Add to cart</button>
+                    </div> 
                 </div>
             </section>
         </main>
