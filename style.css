@@ -114,3 +114,7 @@
 .btn-compra{
     border: 0;
 }
+
+.iput_color{
+    background-color:hsla(217, 9%, 45%, 0.082) ;
+}
