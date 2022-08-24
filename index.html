@@ -11,69 +11,99 @@
 
 </head>
 <body>
-    <div class="conteiner cabeçalho border border-top-0 border-end-0 border-start-0 pb-3">
-        <div class="row">
-            <header class="d-flex align-items-center mx-5">
-                <img class="logo h-25" src="images/logo.svg" alt="logo">
-                <nav class="grid">
-                    <ul class="d-flex align-items-center">
-                        <li class="lista"><a href="#">Collections</a></li>
-                        <li class="lista"><a href="#">Men</a></li>
-                        <li class="lista"><a href="#">Women</a></li>
-                        <li class="lista"><a href="#">About</a></li>
-                        <li class="lista"><a href="#">Contact</a></li>
-                        <img class="img_carrinho px-5" src="images/icon-cart.svg" alt="carrinho">
-                        <img class="img_avatar rounded-circle" src="images/image-avatar.png" alt="avatar">
-                    </ul>
-                </nav>
-            </header>
+    <nav class="navbar navbar-expand-lg navbar-dark border border-bottom border-end-0 border-start-0 border-top-0">
+        <div class="container">
+            <button class="navbar-toggler btn_cor" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <a class="navbar-brand logo" href="#"> <img src="images/logo.svg" alt="logo"> </a>
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-secondary" href="#">Collections</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary" href="#">Men</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary" href="#">Women</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary" href="#">About</a>    
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary" href="#">Contact</a>
+              </li> 
+            </ul>
+            <div class="aligne-self">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white pt-3" href="#"> <img src="images/icon-cart.svg" alt="carrinho"> </a>
+                    </li>
+                    <li class="nav-item avatar_res">
+                        <a class="nav-link" href="#"> <img class="w-50 avatar rounded-circle" src="images/image-avatar.png" alt="avatar"> </a>
+                    </li>
+
+                </ul>
+            </div>
+          </div>
         </div>
-    </div>
-    <div class="conteiner d-flex">
-        <main class="">
-            <section class="d-flex row">
-                <div id="banner" class="carousel slide col-sm-5 h-100 slider" data-bs-ride="carousel">
-                    <div id="indicadores" class="carousel-indicators">
-                        <button type="button" data-bs-target="#banner" data-bs-slide-to="0" class="active"></button>
-                        <button type="button" data-bs-target="#banner" data-bs-slide-to="1"></button>
-                        <button type="button" data-bs-target="#banner" data-bs-slide-to="2"></button>
-                        <button type="button" data-bs-target="#banner" data-bs-slide-to="3"></button>
+      </nav>
+    <div class="conteiner-fluid d-flex">
+        <main class="d-flex principal">
+            <div class="conteiner-fluid">
+                <div id="banner" class="carousel slide carousel-dark col-sm-12 col-lg-7 m-5" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#banner" data-bs-slide-to="0" class="active"></button>
+                      <button type="button" data-bs-target="#banner" data-bs-slide-to="1"></button>
+                      <button type="button" data-bs-target="#banner" data-bs-slide-to="2"></button>
+                      <button type="button" data-bs-target="#banner" data-bs-slide-to="3"></button>
                     </div>
-                    <div id="imagens" class="carousel-inner">
-                        <div class="carousel-item active" ><img class="imagem w-100" src="images/imagem1.jpg" alt="tenis"></div>
-                        <div class="carousel-item"><img class="imagem w-100" src="images/imagem2.jpg" alt="tenis"></div>
-                        <div class="carousel-item"><img class="imagem w-100" src="images/imagem3.jpg" alt="tenis"></div>
-                        <div class="carousel-item"><img class="imagem w-100" src="images/imagem4.jpg" alt="tenis"></div>
+                    <div class="carousel-inner rounded">
+                      <div class="carousel-item active">
+                        <img src="images/imagem1.jpg" class="w-100" alt="tenis">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/imagem2.jpg" class="w-100" alt="tenis">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/imagem3.jpg" class="w-100" alt="tenis">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/imagem4.jpg" class="w-100" alt="tenis">
+                      </div>
                     </div>
-                    
-                    <button type="button" class="carousel-control-prev" data-bs-target="#banner" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                        </button>
-                    <button type="button" class="carousel-control-next" data-bs-target="#banner" data-bs-slide="next" >
-                        <span class="carousel-control-next-icon"></span>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#banner" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
                     </button>
-                   
-                </div>
-                <div class="col-sm-7 descricao">
-                    <h1 class="nomeDaMarca">Sneakear company</h1>
-                    <h2 class="titulo">Fall Limite Edition Sneakers</h2>
-                    <p class="paragrafo">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'II wishtand everything the weather can offer.</p>
+                    <button class="carousel-control-next" type="button" data-bs-target="#banner" data-bs-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </button>
+                  </div>
+            </div>
+                <div class="col-sm-12 col-lg-5 m-5 pt-5">
+                    <h1 class="h6 text-uppercase nomeDaMarca">Sneakear company</h1>
+                    <h2 class="h1 pe-5 me-5">Fall Limite Edition Sneakers</h2>
+                    <p class="fw-light pe-5 me-5 txt">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'II wishtand everything the weather can offer.</p>
                     <div class="d-flex">
                         <p class="preco">$125.00</p>
                         <span class="desconto">50%</span>
                     </div>
                     <s class="precoAntigo d-block mb-5">$250</s>
-                    <div class="d-flex justify-content-center my-5">
-                        <div class="d-flex justify-content-center btn-quantidade col-sm-4 mx-3">
+                    <div class="d-flex">
+                        <div class="d-flex justify-content-center btn-quantidade col-lg-5 me-3 w-25">
                             <button id="contador_menos" class="btn-compra"><img src="images/botao de menos.svg" alt="icon de menos"></button>
-                            <input id="n_contador" class="iput_color col-sm-3 text-center border-0 h2" disabled type="text" value="0">
-                            <button id="contador_mais" class="btn-compra"><img src="images/botao de mais.svg" alt=""></button>
+                            <input id="n_contador" class="iput_color text-center border-0 h-auto w-50" disabled type="text" value="0">
+                            <button id="contador_mais" class="btn-compra"><img src="images/botao de mais.svg" alt="icon de mais"></button>
                         </div>
                         <button id="refresh" class="btn"><img class="icon_btn" src="images/icon-cart.svg" alt="carrinho de compras">Add to cart</button>
-                    </div> 
+                    </div>
                 </div>
-            </section>
-        </main>
+            </div>
+        </main>            
+    </div>
+               
+        
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="script.js"></script>
